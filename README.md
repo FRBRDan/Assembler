@@ -1,4 +1,4 @@
-# Assembler
+# C Project: 20-bit Assembler
 
 ## About
 
@@ -7,7 +7,7 @@ This two-pass assembler was written for an imaginary computer as a final project
 ## Usage
 
 1. Run `make`
-2. Run `./assembler fileName`
+2. Run `./assembler fileName1 fileName2 ...`
 
 The assembler will output *fileName.am*, *fileName.ent*, *fileName.ext* and *fileName.ob*.
 
