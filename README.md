@@ -42,7 +42,7 @@ The computer only works with integers.
 Each computer instruction consists between 1 to 6 words which are encoded in the following manner:
 
 | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 |
-|---|---|---|---|---|---|---|---|---|---|---|---|
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |  destination address | destination address  |  destination | destination  | destination | destination | source address | source address | source | source | source | source | funct | funct | funct | funct | attribute | attribute | attribute | attribute |
 
 This model consists of 16 operations, each of them has a different funct and opcode (*mov, cmp, add, sub, lea, clr, not, inc, dec, jmp, bne, jsr, red, prn, rts and stop*).
